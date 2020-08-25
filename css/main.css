@@ -25,17 +25,18 @@ body {
 header {
     background: url(../img/hero.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    width: 100%;
+    max-width: 100%;
 
 }
 
 header h1 {
-    padding: 65px 0 65px 25px;
+    padding: 65px 0;
     font-family: 'Lora', serif;
     font-size: 1.875em;
     color: #BBC085;
@@ -43,7 +44,7 @@ header h1 {
 }
 
 nav {
-    padding: 75px 25px;
+    padding: 75px 0;
     width: 100%;
 }
 
@@ -56,7 +57,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 1.125em;
     color: #828282;
-    padding-left: 80px;
+    padding-left: 20px;
 }
 
 header h2 {
@@ -86,15 +87,12 @@ header h2 span {
 #about h2 {
     font-family: 'Lora', serif;
     font-size: 2.25em;
-    padding-left: 50px;
 }
 
 #about p {
     font-size: 1.3125em;
     color: #7F7F7F;
     line-height: 40px;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
 /******* WORK SECTION *****/
@@ -105,6 +103,7 @@ header h2 span {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
 
 }
 
@@ -126,7 +125,6 @@ header h2 span {
     font-family: 'Lora', serif;
     font-size: 1.125em;
     line-height: 30px;
-    padding: 0 50px;
 }
 
 
@@ -142,11 +140,19 @@ header h2 span {
 
 #contact .full-width {
     padding: 110px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
+
+
 #contact img#contact-img {
-    margin-left: 25px;
+  display: flex;
+  justify-content: center;
     border: 12px solid #FFFFFF;
+    max-width: 90%;
 }
 
 #contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
