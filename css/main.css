@@ -32,24 +32,41 @@ header {
     align-items: center;
     flex-flow: row wrap;
     max-width: 100%;
+}
 
+header .full-width {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    padding-bottom: 275px;
 }
 
 header h1 {
-    padding: 65px 0;
+    padding-top: 45px;
+    margin: 0;
     font-family: 'Lora', serif;
-    font-size: 1.875em;
+    font-size: 2.5em;
     color: #BBC085;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 nav {
-    padding: 75px 0;
-    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    width: 80%;
 }
 
-nav ul li {
-    display: inline-block;
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 nav ul li a {
@@ -57,15 +74,13 @@ nav ul li a {
     text-decoration: none;
     font-size: 1.125em;
     color: #828282;
-    padding-left: 20px;
 }
 
 header h2 {
-    clear: both;
     font-family: 'Lora', serif;
-    font-size: 4.375em;
-    line-height: 80px;
+    font-size: 2em;
     color: #9B9B9B;
+    width: 90%;
 }
 
 header h2 span {
@@ -73,6 +88,13 @@ header h2 span {
 }
 
 /***** ABOUT SECTION *****/
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
 #about {
   display: flex;
   justify-content: center;
@@ -81,18 +103,22 @@ header h2 span {
 }
 
 #about .full-width {
-    padding: 80px 0;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 90%;
 }
 
 #about h2 {
     font-family: 'Lora', serif;
-    font-size: 2.25em;
 }
 
 #about p {
-    font-size: 1.3125em;
+    font-size: 1em;
     color: #7F7F7F;
-    line-height: 40px;
+    line-height: 30px;
+    margin-bottom: 10px;
 }
 
 /******* WORK SECTION *****/
@@ -108,23 +134,38 @@ header h2 span {
 }
 
 #work .full-width {
-    padding: 115px 0;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+#work .third-width {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 #work img {
     padding-bottom: 30px;
+    width: 20%;
 }
 
 #work h3 {
     font-size: 1.5em;
     line-height: 32px;
     margin: 0 auto;
+    width: 82%;
 }
 
 #work p {
     font-family: 'Lora', serif;
     font-size: 1.125em;
     line-height: 30px;
+    width: 90%;
+    padding-bottom: 25px;
 }
 
 
@@ -139,7 +180,14 @@ header h2 span {
 }
 
 #contact .full-width {
-    padding: 110px 0;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+#contact .half-width {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,38 +195,30 @@ header h2 span {
 }
 
 
-
 #contact img#contact-img {
   display: flex;
   justify-content: center;
     border: 12px solid #FFFFFF;
-    max-width: 90%;
-}
-
-#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
-    padding-left: 115px;
-}
-
-#contact #envelope {
-    padding: 0 10px 0 115px;
+    max-width: 80%;
 }
 
 #contact h2 {
     font-family: 'Lora', serif;
-    font-size: 2.25em;
+    font-size: 2em;
     line-height: 44px;
+    margin-bottom: 0;
 }
 
 #contact #email-header {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: normal;
     line-height: 44px;
-    margin: -30px 0 5px 0;
+    margin: 0;
 }
 
 #contact #socialmedia-header {
     font-weight: bold;
-    font-size: 1.8125em;
+    font-size: 1.5em;
     line-height: 44px;
     margin: 40px 0 0 0;
 }
@@ -187,19 +227,20 @@ header h2 span {
     text-decoration: none;
     color: #C49075;
     font-weight: bold;
-    font-size: 1.75em;
+    font-size: 1.4em;
+    margin: 15px 0;
 }
 
 #contact ul {
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 10px 0;
 }
 
-#contact ul li {
-    display: inline-block;
-}
 
 #contact ul i {
-    padding-right: 48px;
     color: #C49075;
-    font-size: 2.1875em;
+    font-size: 1.75em;
 }
