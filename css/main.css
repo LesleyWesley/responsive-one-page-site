@@ -253,9 +253,50 @@ main {
 @media only screen and (min-width:768px) {
     /* Tablet styles here */
 
-    h1 {
+  header .full-width {
+      width: 90%;
+      justify-content: space-between;
+      padding-bottom: 225px;
+  }
+
+  header  h1 {
       justify-content: flex-start;
-      color: red;
+      font-size: 1.875em;
+      width: 40%;
+      padding-top: 65px;
     }
+
+  nav {
+      width: 35%;
+      justify-content: flex-end;
+      padding-top: 75px;
+  }
+
+  nav ul li a {
+    font-size: 1em;
+  }
+
+  header h2 {
+    font-size: 2.75em;
+    width: 100%;
+  }
+
+  /* About Section - Tablet */
+
+  #about h2 {
+    font-size: 1.75em;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  #about .full-width {
+    justify-content: space-between;
+    padding: 75px 0;
+  }
+
+  #about .half-width {
+    width: 45%;
+  }
+
 
 }
