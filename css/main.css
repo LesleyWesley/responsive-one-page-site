@@ -245,7 +245,6 @@ main {
     font-size: 1.75em;
 }
 
-
 /**************************************************************
         MEDIA QUERIES
 ****************************************************************/
@@ -298,5 +297,67 @@ main {
     width: 45%;
   }
 
+  /* Work Section - Tablet */
+
+  #work .full-width {
+    align-items: baseline;
+    justify-content: space-around;
+  }
+
+  #work .third-width {
+    width: 33%;
+  }
+
+  #work img {
+    padding: 20px;
+    width: 25%;
+  }
+
+  #work h3 {
+    font-size: 1.25em;
+    width: 63%;
+    display: flex;
+  }
+
+  #work p {
+    font-size: .85em;
+  }
+
+  /* Contact Section - Tablet */
+
+  #contact .full-width {
+    padding: 50px 0;
+    width: 90%;
+    justify-content: space-between;
+  }
+
+  #contact .half-width {
+    width: 45%;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  #contact img#contact-img {
+    max-width: 100%;
+  }
+
+  #contact h2 {
+    font-size: 1.75em;
+  }
+
+  #contact a {
+    margin: 0;
+  }
+
+  #contact #socialmedia-header {
+    font-size: 1.25em;
+    margin: 20px 0 0 0;
+  }
+
+  #contact ul {
+    width: 79%;
+    margin: 0;
+    padding: 5px 0;
+  }
 
 }
