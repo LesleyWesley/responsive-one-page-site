@@ -361,3 +361,101 @@ main {
   }
 
 }
+
+@media only screen and (min-width:1200px) {
+    /* Desktop styles here */
+
+
+  header {
+    width: 100%;
+  }
+
+  header .full-width {
+    padding-bottom: 300px;
+    width: 80%;
+  }
+
+  nav {
+    width: 20%;
+    padding-right: 25px;
+
+  }
+
+  header h2 {
+    font-size: 4.5em;
+    width: 87%;
+  }
+
+  /* About Section - Desktop */
+
+  #about .full-width {
+    width: 80%;
+  }
+
+  #about h2 {
+    font-size: 2.25em;
+  }
+
+  #about p {
+    font-size: 1.3125em;
+    line-height: 40px;
+    padding-bottom: 25px;
+  }
+
+  /* Work Section - Desktop */
+
+  #work .full-width {
+    width: 90%;
+    margin: 50px 0;
+    justify-content: space-between;
+  }
+
+  #work .third-width {
+    width: 30%;
+    justify-content: space-center
+  }
+
+  #work h3 {
+    font-size: 1.5em;
+    width: 50%;
+    padding: 0 100px;
+  }
+
+  #work p {
+    padding: 40px;
+    font-size: 1.125em;
+    margin: 0;
+  }
+
+  /* Contact Section - Desktop */
+
+  #contact .full-width {
+    padding: 150px 0;
+  }
+
+  #contact h2 {
+    font-size: 2.25em;
+    padding: 0;
+  }
+
+  #contact #email-header {
+    font-size: 2em;
+  }
+
+  #contact a {
+    font-size: 1.75em;
+    padding: 25px 0;
+  }
+
+  #contact #socialmedia-header {
+    font-size: 1.8125em;
+  }
+
+  #contact ul {
+    width: 60%;
+    padding-top: 15px;
+  }
+
+
+
+}
